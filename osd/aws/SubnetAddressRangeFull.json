@@ -1,0 +1,9 @@
+{
+  "severity": "Major",
+  "service_name": "SREManualAction",
+  "log_type": "General Notification",
+  "_tags": ["t_network"],
+  "summary": "Action required: Subnet address range is full",
+  "description": "Your cluster requires you to take action because subnet: ${SUBNET} has eight or less available IP addresses, resulting in ELB provisioning faulures. Please recreate your cluster within larger subnets, or free enough addresses in the subnet. Without action, your cluster's SLA may be impacted, along with your ability to upgrade. Please refer to this documentation for more information: https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancers.html#subnets-load-balancer .",
+  "internal_only": false
+}
